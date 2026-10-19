@@ -1,0 +1,18 @@
+{
+  "name": "my-budget-folders-cloud",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PIN-protected cloud-synced personal budget tracker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0"
+  }
+}
